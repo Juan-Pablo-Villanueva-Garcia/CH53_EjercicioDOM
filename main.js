@@ -3,21 +3,21 @@
 let btnMostar = document.getElementById("btnMostrar");
 let encabezado1 = document.getElementById("encabezado1");
 let encabezado2 = document.getElementById("encabezado2");
-let lista =document.getElementByTagName("ul");
-let elementos = document.getElementByClassName("list-group.item");
+let lista =document.getElementsByTagName("ul");
+let elementos = document.getElementsByClassName("list-group-item");
 
-let otroElemento = document.querySelector("ul>li");
+let primerElemento = document.querySelector("ul>li");
 
-let otroElemento = document.querySelectorAll("ul>li");
+let todosLosElementos = document.querySelectorAll("ul>li");
 
-console.log(otrosElementos.length);
+console.log("todosLosElementos",todosLosElementos.length);
 
-console.log("otroElemento",otroElemento);  //primero
+console.log("primerElemento",primerElemento);  //primero
 
 
 
-console.log(listas.length);//2
-console.log(listas.item(1));
+console.log(lista.length);//2
+console.log(lista.item(1));
 
 console.log(elementos.item(2));
 console.log(elementos.length);
@@ -31,7 +31,7 @@ function modifica() {
 
 //console.log(encabezado1.innerText);
 
-btnMostrar.addEventListener(click,function(event){
+btnMostrar.addEventListener("click",function(event){
     event.preventDefault();
     console.log("botón btnModificar presionado");
 });
