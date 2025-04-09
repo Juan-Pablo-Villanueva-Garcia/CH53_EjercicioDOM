@@ -18,4 +18,4 @@ git pish origin main
 ```
 Vista Previa del Index.html
 
-![Index](https://raw.githubusercontent.com/Juan-Pablo-Villanueva-Garcia/CH53_EjercicioDOM/blob/master/images/CAPTURA%20DOM.PNG)
+![Index](https://github.com/Juan-Pablo-Villanueva-Garcia/CH53_EjercicioDOM/blob/master/images/CAPTURA%20DOM.PNG)
